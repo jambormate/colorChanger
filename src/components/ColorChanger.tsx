@@ -17,7 +17,7 @@ function ColorChanger() {
   }
 
   return (
-    <main style={{ backgroundColor }}>
+    <main style={{ backgroundColor, minHeight: '100vh', width: '100%' }}>
       <Fejlec />
       <button onClick={generateColor}>
         Új szín generálása
